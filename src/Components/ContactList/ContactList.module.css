@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 530px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  margin: 5px 0 5px 0;
+  border: 2px solid rebeccapurple;
+}
+
+.text {
+  font-size: 20px;
+}

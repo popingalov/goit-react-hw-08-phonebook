@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+}
+
+.name {
+  font-weight: 600;
+  margin-right: 18px;
+  color: #6d7e83;
+}
+
+.accent {
+  composes: name;
+  color: #2196f3;
+}

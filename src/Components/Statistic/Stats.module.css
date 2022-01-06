@@ -1,0 +1,21 @@
+.stats {
+  display: flex;
+  height: 85;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: 0;
+  text-align: center;
+}
+
+.item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 500;
+}
