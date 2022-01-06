@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import authOperations from './redux/auth/auth-operations';
 import authSelectors from 'redux/auth/auth-selectors';
 import AppBar from './Components/AppBar/AppBar';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Spinner from './Components/Spinner/Spinner';
 import PrivateRoute from './Components/PrivateRoute';
 import PublicRoute from './Components/PublicRoute';

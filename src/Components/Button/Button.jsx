@@ -1,10 +1,17 @@
 import PropTypes from 'prop-types';
+import { Button } from 'react-bootstrap';
 
-export default function Button({ type, title, onClick, disabled, children }) {
+export default function Buttonn({ type, title, onClick, disabled, children }) {
   return (
-    <button type={type} title={title} disabled={disabled} onClick={onClick}>
+    <Button
+      variant="outline-dark"
+      type={type}
+      title={title}
+      disabled={disabled}
+      onClick={onClick}
+    >
       {children}
-    </button>
+    </Button>
   );
 }
 
