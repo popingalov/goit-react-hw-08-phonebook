@@ -20,7 +20,8 @@ const register = createAsyncThunk('auth/register', async credentials => {
     console.log(data);
     return data;
   } catch (error) {
-    toast.error(error.message);
+    toast.error('Проверьте верность введите данных');
+    return createAsyncThunk.rejectWithValue(error);
   }
 });
 
@@ -30,7 +31,8 @@ const logIn = createAsyncThunk('auth/login', async credentials => {
     token.set(data.token);
     return data;
   } catch (error) {
-    toast.error(error.message);
+    toast.error('Проверьте верность введите данных');
+    return createAsyncThunk.rejectWithValue(error);
   }
 });
 
