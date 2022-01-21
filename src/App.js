@@ -10,7 +10,6 @@ import Spinner from './Components/Spinner/Spinner';
 import PrivateRoute from './Components/PrivateRoute';
 import PublicRoute from './Components/PublicRoute';
 import 'App.css';
-
 const HomeView = lazy(() => import('pages/HomeView.jsx'));
 const RegisterView = lazy(() => import('pages/RegisterView.jsx'));
 const LoginView = lazy(() => import('pages/LoginView.jsx'));
